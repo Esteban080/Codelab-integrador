@@ -1,0 +1,9 @@
+#igorar los .venv carpetas
+.venv/
+#ignorar archivos de dependencias de Python
+__pycache__/
+*.py[cod]
+#ignorar archivos de entorno virtual
+env/
+venv/
+ENV/
