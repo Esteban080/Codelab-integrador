@@ -1,0 +1,26 @@
+#igorar los .venv carpetas
+.venv/
+#ignorar archivos de dependencias de Python
+__pycache__/
+*.py[cod]
+#ignorar archivos de entorno virtual
+env/
+venv/
+ENV/
+
+venv/
+*/venv/
+**/venv/
+
+# Ignore virtual environments with other common names
+env/
+*/env/
+**/env/
+
+.virtualenv/
+*/.virtualenv/
+**/.virtualenv/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
